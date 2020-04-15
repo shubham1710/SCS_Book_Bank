@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context=".abtus">
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="SCS is your ''Friend in Campus'' at IIT BHU. \n \nWe assist students for enhancing and strengthening their academics, skills and career choices as well as for their overall wellness.
+\n \nSCS aims to generate skilled and healthy (both at physical and mental level) human resources in the institute with adequate potential.
+\n\nIt consists of mainly 5 teams - Wellness, Academic, Career, Skill Development and International Exchange.
+\n\nSCS Book Bank is a part of Wellness team which is established to encourage students to read books.\n\nThe Book Bank will consist of two components.\nOne being the SCS Book Bank, under which 50+ books of Self-Help, Entrepreneurship, Spirituality, Philosophy etc. are kept.\n\nThe second being Students Sharing Library, under which students can lend the books which are lying idle on their shelves to fellow students.
+\n\nThe Book Bank is located in the SCS Office Room (Aryabhatta-II Hostel #C102), can be accessed on Sundays between 3:00 pm - 4:00 pm and on Wednesdays between 12:00 noon - 1:00 pm."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</ScrollView>
